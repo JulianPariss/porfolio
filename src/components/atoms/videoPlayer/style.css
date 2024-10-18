@@ -1,0 +1,16 @@
+.videoComponent{ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.videoBox{
+    display: inline-block;
+    margin: 0;
+    width: auto;
+    padding: 56.25% 0 0;
+    height: 0;
+    position: relative;
+    z-index: 90;
+}

@@ -1,0 +1,20 @@
+
+.backgroundImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.1;
+    background-image: url("https://i.pinimg.com/originals/9c/14/86/9c14863b9e64ffc65cdfda4cdc9a0b99.gif");
+    background-repeat: repeat-x;
+    background-size: 10vw;
+    filter: brightness(1.5) contrast(0.5);
+    z-index: 99;
+    background-color: transparent;
+}
+
+.backgroundMask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+}

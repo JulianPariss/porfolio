@@ -1,0 +1,197 @@
+.prf-background{
+    background-color: #272727;
+    
+    width: 100%;
+    height: 115vh;
+    display: flex;
+    overflow: visible; 
+    background-size: contain;
+
+    position: relative;
+    z-index: 6;
+
+    -webkit-box-shadow: 0px 6px 4px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 6px 4px 0px rgba(0,0,0,0.35);
+    box-shadow: 0px 6px 4px 0px rgba(0,0,0,0.35);
+}
+
+.prf-backgroundimageMask{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('./../../../../public/noise_00.png');
+    background-size: cover;
+    opacity: 0.1;
+    mix-blend-mode: darken;
+}
+
+
+.prf-light-container{
+    position: absolute;
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden;
+    
+}   
+.prf-light{
+    position: relative;
+    width: 100%; /* Adjust the width as needed */
+    height: 100%; /* This should be half of the width for a perfect semi-circle */
+    background: radial-gradient(circle at right, rgba(51, 226, 212, 0.2) 2%, rgba(12, 81, 65, 0) 50%);
+    border-radius: 100px 0 0 100px; /* Creates the semi-circle shape */
+    right: -10vw;
+}
+
+
+.prf-content{
+    width: 50%;
+    height: 100%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.txtblc {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start; 
+}
+
+.txtblc p {
+    text-align: start;
+    font-size: 1.2vw;
+}
+
+.txtblc h3 {
+    font-size: 3vw;
+    margin: 1rem 0 0.5rem 0;
+    font-family: 'Koulen', sans-serif;
+
+}
+
+.textBlock_00{
+
+}
+
+.textBlock_01{
+
+}
+
+.perfil{
+    width: 25%;
+    position: relative;
+    left: 3vw;
+    height: 100vh;
+    transform: translateY(-14%);
+    z-index: 6;
+}
+
+
+.prf-head{
+    background-color: #0A3C30;
+    border-radius: 16px 16px 0px 0px;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    position: relative;
+    z-index: 4;
+}
+
+
+.prf-head h3 {
+    margin: 0;
+    font-size: clamp(4vw, 5vw, 24px);
+    color: #28D992;
+    text-align: center;
+    font-family: 'Koulen', sans-serif;
+
+}
+
+.prf-backImage{
+    background-color: #0A3C30;
+    height: 65%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.profileImage{
+    width: auto;
+    height: 90%;
+
+    background: radial-gradient(circle, 
+    rgba(51, 226, 212, 0.2) 10%, /* #33E2D4 */
+    rgba(12, 81, 65, 0) 60%); /* #0C5141 with 0% opacity */
+    
+}
+
+.profileTitles{
+    background-color: #0C5141;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0px;
+
+    position: relative;
+    z-index: 3;
+
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+                        inset 0px 6px 3.5px -2px rgba(255, 255, 255, 0.15);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+                     inset 0px 6px 3.5px -2px rgba(255, 255, 255, 0.15);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+                inset 0px 6px 3.5px -2px rgba(255, 255, 255, 0.15);
+}
+
+.devtitle{
+    padding: 5px 10px;
+    background-color: #1CA16C;
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.25), inset 0px 0px 14px 2px #28D992;
+    -moz-box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.25), inset 0px 0px 14px 2px #28D992;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.25), inset 0px 0px 14px 2px #28D992;
+    border-radius: 8px;
+    width: 80%;
+}
+.devtitle h5{
+    margin: 0;
+    font-size: 2.2vw;
+    color: #205741;
+    text-align: center;
+    text-transform: uppercase;
+    
+    font-family: 'Koulen', sans-serif;
+
+}
+
+.prf-foot{
+    background-color: #0A3C30;
+    border-radius: 0px 0px 16px 16px;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.35);
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.35);
+}
+
+.prf-foot h4{
+    margin: 0;
+    font-size: clamp(4vw, 5vw, 24px);
+    color: #B5EECF;
+    
+    font-family: 'Koulen', sans-serif;
+
+    text-align: center;
+
+    text-shadow: 
+    1px 1px 0 #0c5141b2,  /* Shadow to the bottom right */
+   -1px -1px 0 #0c5141b2,  /* Shadow to the top left */
+    1px -1px 0 #0c5141b2,  /* Shadow to the top right */
+   -1px 1px 0 #0c5141b2,  /* Shadow to the bottom left */
+    0 0 5px #0c5141b2;    /* Blur effect */
+
+    
+}

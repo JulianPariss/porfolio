@@ -1,0 +1,17 @@
+.rocks-01{ 
+    position: absolute;
+    width: 100%;
+    top: 70%;
+    left: 0;
+    z-index: 100;
+    background-image: linear-gradient(to bottom, #0a3c3000, #0a3c30bb)
+}
+
+.rks-container{
+    overflow: hidden;
+}
+
+.rocks-02{
+    z-index: 3;
+    position: relative;
+}

@@ -1,0 +1,24 @@
+.container{
+    position: absolute;
+    z-index: 100;
+    left: 63vw;
+    top: 8vw;
+    text-align: end;
+}
+
+.text{
+    font-family: 'JuliusSansOne';
+    margin: 0;
+    white-space: nowrap;
+    line-height: 0.8;
+    color: #F0FFC6;
+}
+
+.head{
+    font-size: 5vw;
+}
+
+.property{
+    font-size: 2vw;
+    margin-top: 1vw;
+}

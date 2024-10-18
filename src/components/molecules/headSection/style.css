@@ -1,0 +1,55 @@
+.sectionContainer{
+    width: 100%;
+    height: 20vh;
+    position: relative;
+    top: -8vh;
+    z-index: 2;
+}
+
+.sectionHead{
+    width: 100%;
+    height: 140%;
+    position: relative;
+    z-index: 2;
+    background-image: url("https://i.pinimg.com/originals/9c/14/86/9c14863b9e64ffc65cdfda4cdc9a0b99.gif");
+    opacity: 0.3;
+    background-repeat: repeat;
+    background-size: 80vw;
+    filter: brightness(1.5) contrast(0.5);
+
+}
+
+
+.sectionHead-back{
+    z-index: 1;
+    width: 100%;
+    height: 130%;
+    position: relative;
+    top: -130%;
+    background: rgb(0,28,17);
+    background: linear-gradient(180deg, rgba(0,28,17,1) 0%, rgba(10,92,59,1) 100%);
+    opacity: 1;
+
+    -webkit-box-shadow: 0 12px 5px rgba(0, 0, 0, 0.3);  /* For Safari 5.1 to 6.0 */
+    -moz-box-shadow: 0 12px 5px rgba(0, 0, 0, 0.3);     /* For Firefox 3.5 to 3.6 */
+    box-shadow: 0 12px 5px rgba(0, 0, 0, 0.3); 
+
+
+}
+.sectionHead-content{
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    height: 130%;
+    top: -260%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+}
+
+.sectionHead-content p {
+    color: red;
+    font-size: 80px;
+    z-index: 3;
+}

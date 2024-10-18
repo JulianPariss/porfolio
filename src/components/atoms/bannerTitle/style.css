@@ -1,0 +1,28 @@
+.title{
+    font-family: 'Koulen';
+    font-size: 9vw;
+    position: absolute;
+    top: 1.3vw;
+    left: 4vw;
+    z-index: 100;
+    margin: 0;
+    line-height: 0.8;
+    mix-blend-mode: hard-light;
+}
+
+.baseColor{
+    color: #60fcbe;
+
+    -webkit-text-shadow: 0px 7px 2.5px rgba(0,0,0,0.45);
+    -moz-text-shadow: 0px 7px 2.5px rgba(0,0,0,0.45);
+    text-shadow: 0px 7px 2.5px rgba(0,0,0,0.45);
+
+}
+
+.backgroundBlend{
+    background: url("./../../../../public/noise_00.png") no-repeat;
+    background-size: cover;
+    background-clip: text;
+    color: transparent;
+    filter: brightness(1.4) contrast(0.8) opacity(0.5);
+}   
