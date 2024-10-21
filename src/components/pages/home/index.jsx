@@ -8,6 +8,7 @@ import RocksMask_02 from "../../molecules/rocksMask/rocksMask_02";
 import Section from "../../organisms/section";
 import CardsList from "../../organisms/cardsList";
 import ParallaxBackground from "../../atoms/parallaxBackground";
+import LevelDesign from "../../organisms/levelDesign";
 
 const Home = () => {
     return(
@@ -22,7 +23,7 @@ const Home = () => {
             <RocksMask_02/>
             <Section/>
             <CardsList/>
-            <div style={{width: "100%", height: "50vh", backgroundColor: "black"}}/>
+            <LevelDesign/>
         </>
     )
 }

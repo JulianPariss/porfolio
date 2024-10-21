@@ -15,3 +15,8 @@
     z-index: 3;
     position: relative;
 }
+
+.rocks-03{
+    z-index: 3;
+    position: absolute;
+}
