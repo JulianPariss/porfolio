@@ -1,0 +1,23 @@
+.cd-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    margin: 150px 0px;
+}
+
+
+.cd-content{
+    width: 50%;
+    height: 100%;
+    background: rgb(0,27,28);
+    background: linear-gradient(180deg, rgba(0,27,28,1) 0%, rgba(10,92,85,1) 100%); 
+    border-radius: 0px 8px 0px 0px;
+
+    -webkit-box-shadow: inset 0px 0px 5px 8px rgba(0,0,0,0.35);
+    -moz-box-shadow: inset 0px 0px 5px 8px rgba(0,0,0,0.35);
+    box-shadow: inset 0px 0px 5px 8px rgba(0,0,0,0.35);
+
+    border-radius: 0px 0px 8px 0px;
+}

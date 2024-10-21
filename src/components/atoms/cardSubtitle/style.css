@@ -1,0 +1,51 @@
+.cds-container{
+    width: 100%;
+    height: 30%;
+    background: rgb(0,27,28);
+    background: linear-gradient(90deg, rgba(0,27,28,1) 0%, rgba(10,92,85,1) 100%); 
+    border-radius: 0px 8px 0px 0px;
+    border-bottom: 2px solid #F0FFC6;
+    -webkit-box-shadow: 0px 8px 5px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 8px 5px 0px rgba(0,0,0,0.35);
+    box-shadow: 0px 8px 5px 0px rgba(0,0,0,0.35);
+}
+
+.cds_image{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://images.unsplash.com/photo-1721524743092-3295ea996916?q=80&w=2010&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    filter: saturate(0) opacity(0.4);
+    border-radius: 0px 8px 0px 0px;
+}   
+
+.cds_gif{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+    background-image: url('https://i.pinimg.com/originals/9c/14/86/9c14863b9e64ffc65cdfda4cdc9a0b99.gif');
+    opacity: 0.3;
+    background-repeat: repeat;
+    background-size: 60vw;
+    filter: brightness(1.5) contrast(0.5);
+    top: -100%;
+    border-radius: 0px 8px 0px 0px;
+}
+
+.cds_title{
+    font-family: 'JuliusSansOne';
+    font-weight: lighter;
+    font-size: 2.5rem;
+    z-index: 5;
+    color:#F0FFC6;
+    position: relative;
+    top: -200%;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 100px;
+}

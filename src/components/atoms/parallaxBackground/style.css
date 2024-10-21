@@ -3,7 +3,7 @@
     width: 100%;
     z-index: -3;
     filter:  grayscale(100%) brightness(1) contrast(1) blur(1px);
-    
+    top: (-20%);
 
 }
 

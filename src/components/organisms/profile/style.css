@@ -120,11 +120,12 @@
 
 .profileImage{
     width: auto;
-    height: 90%;
+    height: 110%;
+    transform:scaleX(-1);
 
     background: radial-gradient(circle, 
     rgba(51, 226, 212, 0.2) 10%, /* #33E2D4 */
-    rgba(12, 81, 65, 0) 60%); /* #0C5141 with 0% opacity */
+    rgba(12, 81, 65, 0) 55%); /* #0C5141 with 0% opacity */
     
 }
 
