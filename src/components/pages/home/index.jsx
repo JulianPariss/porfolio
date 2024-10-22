@@ -9,6 +9,7 @@ import Section from "../../organisms/section";
 import CardsList from "../../organisms/cardsList";
 import ParallaxBackground from "../../atoms/parallaxBackground";
 import LevelDesign from "../../organisms/levelDesign";
+import Footer from "../../organisms/footer";
 
 const Home = () => {
     return(
@@ -24,6 +25,7 @@ const Home = () => {
             <Section/>
             <CardsList/>
             <LevelDesign/>
+            <Footer/>
         </>
     )
 }
