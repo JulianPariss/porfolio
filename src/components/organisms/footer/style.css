@@ -17,10 +17,94 @@
 }
 
 .ft-content{
-    height: 75%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: end;
+    align-items: center;
+}
+
+@keyframes levitate {
+    0% {
+      margin-bottom: 15%;
+    }
+    25%{
+        margin-bottom: calc(15% - 10px);
+    }
+    50% {
+      margin-bottom: calc(15% - 20px);
+    }
+    75%{
+        margin-bottom: calc(15% - 15px);
+    }
+    100% {
+      margin-bottom: 15%;
+    }
+  }
+
+.levitate {
+animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}  
+
+.ft-logo-container{
+    width: 550px;
+    height: 550px;
+    animation: levitate 4s infinite;
+}
+
+.ft-logo-border{
+    width: 550px;
+    height: 550px;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,0) 65%, rgb(18, 255, 208) 100%); 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+}
+
+.ft-logo-icon{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    z-index: 7;
+    filter: grayscale(0.8);
+}
+
+.ft-logo-title{
+    font-family: 'Koulen';
+    font-size: 9vw;
+    position: absolute;
+    z-index: 100;
+    margin: 0;
+    line-height: 0.8;
+    mix-blend-mode:hard-light;
+    z-index: 10;
+}
+
+.ft-logo-light{
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    z-index: 6;
+   
+    background: rgba(73, 241, 174, 0.293);
+    background: radial-gradient(circle, rgba(73, 241, 174, 0.383) 10%, rgba(61,61,61,0) 70%); 
+
+
+} 
+
+
+.ft-logo-gif{
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    z-index: 8;
+   
+    background-image: url('https://i.pinimg.com/originals/9c/14/86/9c14863b9e64ffc65cdfda4cdc9a0b99.gif');
+    border-radius: 50%;
+    opacity: 0.05;    
 }
 
 .ft-navBar{
