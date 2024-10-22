@@ -8,7 +8,7 @@
     background-size: contain;
 
     position: relative;
-    z-index: 6;
+    z-index: 17;
 
     -webkit-box-shadow: 0px 6px 4px 0px rgba(0,0,0,0.35);
     -moz-box-shadow: 0px 6px 4px 0px rgba(0,0,0,0.35);
@@ -46,7 +46,7 @@
 .prf-content{
     width: 50%;
     height: 100%;
-    margin-left: 10%;
+    margin-left: 15%;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -82,10 +82,10 @@
 .perfil{
     width: 25%;
     position: relative;
-    left: 3vw;
+    left: 6vw;
     height: 100vh;
     transform: translateY(-14%);
-    z-index: 6;
+    z-index: 17;
 }
 
 

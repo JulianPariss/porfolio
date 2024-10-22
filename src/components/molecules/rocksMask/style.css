@@ -3,7 +3,7 @@
     width: 100%;
     top: 70%;
     left: 0;
-    z-index: 100;
+    z-index: 16;
     background-image: linear-gradient(to bottom, #0a3c3000, #0a3c30bb)
 }
 

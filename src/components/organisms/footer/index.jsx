@@ -12,6 +12,9 @@ const Footer = () => {
         <div className='ft-conatiner'>
             <div className='ft-topDivider'/>
             <div className='ft-content'>
+                <img src='smoke.png' alt='smoke' className='ft-smoke smoke00'/>
+                <img src='smoke.png' alt='smoke' className='ft-smoke smoke01'/>
+                <img src='smoke.png' alt='smoke' className='ft-smoke smoke02'/>
                 <div className='ft-logo-container'>
                     <div className='ft-logo-light'/>
                     <div className='ft-logo-gif'/>
@@ -21,6 +24,7 @@ const Footer = () => {
                         <h1 className="ft-logo-title backgroundBlend">ZERO</h1> 
                     </div>
                 </div>
+                <h3 className='ft-author'>By Julian Paris</h3>
                 <div className='ft-navBar'>
                     <div className='ft-bar'>
                         <div className='ft-bar-icon-container' onClick={() => {window.scrollTo({top: 0, behavior: 'smooth'})}}>

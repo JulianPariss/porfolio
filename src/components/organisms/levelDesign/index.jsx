@@ -8,7 +8,7 @@ const LevelDesign = () => {
 
     return(
         <>
-        <div>
+        <div className='ld-head'>
             <RocksMask_03/>
             <h2 className='ld-title'>Level Design</h2>
         </div>

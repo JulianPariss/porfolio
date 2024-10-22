@@ -6,6 +6,8 @@
     flex-direction: column;
     justify-content: end;
     align-items: center;
+    z-index: 17;
+    position: relative;
 }
 
 .abt-content{ 

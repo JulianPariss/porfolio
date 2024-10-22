@@ -36,7 +36,7 @@
 .cds_title{
     font-family: 'JuliusSansOne';
     font-weight: lighter;
-    font-size: 2.5rem;
+    font-size: 2vw;
     z-index: 5;
     color:#F0FFC6;
     position: relative;
@@ -47,5 +47,5 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    margin-left: 100px;
+    margin-left: 3vw;
 }
