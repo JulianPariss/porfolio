@@ -8,18 +8,22 @@ const HeadSection = (props) => {
         {
             id: 0,
             title: "vfx",
+            disabled: false,
         },
         {
             id: 1,
-            title: "concept"
+            title: "concept",
+            disabled: false,
         },
         {
             id: 2,
-            title: "3d art"
+            title: "3d art",
+            disabled: false,
         },
         {
             id: 3,
-            title: "animation"
+            title: "animation",
+            disabled: true,
         }
     ]
 
@@ -29,7 +33,7 @@ const HeadSection = (props) => {
             <div className="sectionHead-back"/>
             <div className='sectionHead-content'>
                 {sections.map((section) => {
-                    return <NavSectionItem id={section.id} title={section.title} isActive={section.id == currentSection} onClick={setCurrentSection}/>
+                    return <NavSectionItem disabled={section.disabled} id={section.id} title={section.title} isActive={section.id == currentSection} onClick={setCurrentSection}/>
                 })}
             </div>
         </div>

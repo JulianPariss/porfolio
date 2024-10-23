@@ -1,5 +1,7 @@
 import './style.css'
 import SectionVFX from '../sectionVFX';
+import SectionConcept from '../sectionConcept';
+import Section3D from '../section3D';
 
 const SectionBody = (props) => {
     const { currentSection } = props;
@@ -12,7 +14,8 @@ const SectionBody = (props) => {
                         {/*Posiblemente acá cargue los diferentes componentes con los diferentes contenidos.*/}
                 </div>
                 {currentSection == 0 && <SectionVFX/>}
-
+                {currentSection == 1 && <SectionConcept/>}
+                {currentSection == 2 && <Section3D/>}
             </div>
         </div>
     )
