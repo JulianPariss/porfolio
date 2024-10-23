@@ -18,9 +18,9 @@ const LevelDesign = () => {
             <ImageDivider/>
             <img src="level_01.png" alt="levelImage" className="ld-image level-01"/>
             <ImageDivider/>
-            <img src="level_00.png" alt="levelImage" className="ld-image level-00"/>
+            <img src="level_02.png" alt="levelImage" className="ld-image level-00"/>
             <ImageDivider/>
-            <img src="level_01.png" alt="levelImage" className="ld-image level-01"/>
+            <img src="level_03.png" alt="levelImage" className="ld-image level-01"/>
 
         </div>
         </>

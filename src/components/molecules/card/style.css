@@ -21,3 +21,40 @@
 
     border-radius: 0px 0px 8px 0px;
 }
+
+.cd-web-content{
+    height: 100%;
+    padding: 10px 40px 0px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.cd-web-title{
+    font-family: 'JuliusSansOne' , sans-serif;
+    color: #F0FFC6;
+    font-weight: lighter;
+    font-size: 1vw;
+}
+.cd-web-ul{
+    color: #F0FFC6;
+    margin: 4px 0px;
+}
+
+.cd-web-li{
+    margin-bottom: 5px;
+    font-family: 'JuliusSansOne', sans-serif;
+    font-size: 0.8vw;
+}
+
+.cd-web-li a{
+    color: #F0FFC6;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cd-web-text{
+    font-size: 1vw;
+    color: white;
+    font-family: 'JuleeRegular';
+}
