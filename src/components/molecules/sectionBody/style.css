@@ -14,7 +14,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     background-image: url('./../../../../public/Logo.png');
     background-size: 100vw;
     background-repeat: no-repeat;
@@ -28,9 +28,13 @@
     width: 75%;
     background-color: rgb(27, 27, 27);
 
-    -webkit-box-shadow: inset 0px 13px 18px 0px rgba(0,0,0,0.85);
-    -moz-box-shadow: inset 0px 13px 18px 0px rgba(0,0,0,0.85);
-    box-shadow: inset 0px 0px 20px 10px rgba(0, 0, 0, 0.791);
+    -webkit-box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.8);
+    -moz-box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.8);
+    box-shadow: inset 0px 0px 20px 10px rgba(0, 0, 0, 0.8);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 

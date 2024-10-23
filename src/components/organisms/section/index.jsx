@@ -10,7 +10,7 @@ const Section = () => {
     return(
         <div>
             <HeadSection currentSection={currentSection} setCurrentSection={setCurrentSection}/>
-            <SectionBody/>
+            <SectionBody currentSection={currentSection}/>
         </div>
         
     )
