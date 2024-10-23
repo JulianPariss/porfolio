@@ -25,9 +25,45 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Zero Games</title>
+    
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        if (window.innerWidth < 720) { // Adjust this value based on what you consider a mobile viewport
+          document.getElementById("wip-message").style.display = "block";
+          document.getElementById('root').style.display = "none";
+        }
+      });
+    </script>
+    <style>
+      #wip-message {
+        display: none; 
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(21, 21, 21, 0.8); 
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 2rem; 
+        text-align: center;
+        z-index: 1000; 
+        width: 80%;
+      }
+      #wip-message p{
+        font-family: 'JuliusSansOne', sans-serif;
+      }
+      body {
+        background-color: rgb(24, 24, 24);
+      }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="wip-message" style="display:none;">
+      <p>Desarrollo mobile en proceso</p>
+      <p>¡Mira este portafolio desde Desktop!</p>
+    </div>
     <div id="root"></div>
     <!--
       This HTML file is a template.
