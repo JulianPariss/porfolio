@@ -4,15 +4,9 @@ const AboutThis = () => {
     return(
         <div className="abt-background">
             <div className="abt-content">
-                <h2 className="abt-title">Bienvenidos a mi “web-folio”</h2>
+                <h2 className="abt-title">Bienvenidos a mi portafolio digital</h2>
                 <p className="abt-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi  ullamcorper aliquet consequat. Class aptent taciti sociosqu 
-                    ad litora  torquent per conubia nostra, per inceptos himenaeos. Sed dolor turpis,  efficitur vitae tortor a, faucibus luctus nulla.
-                    Aenean id porttitor  orci, a cursus elit. Vivamus cursus sit amet leo at vestibulum. Maecenas  imperdiet, sem at faucibus accumsan, 
-                    turpis arcu euismod ex, in  vestibulum justo augue non orci. In blandit placerat placerat. Curabitur  sed maximus massa. Cras quis massa 
-                    eu nisl vehicula lobortis nec id  nibh. Phasellus sed magna cursus, bibendum massa quis, eleifend enim.  Nulla malesuada, mauris vitae 
-                    lacinia semper, eros erat dignissim massa,  vitae tempor ex sem ac tortor. Class aptent taciti sociosqu ad litora  torquent per conubia 
-                    nostra, per inceptos himenaeos.
+                    Aquí combino todas mis habilidades en videojuegos, desarrollo, arte y diseño en un solo lugar. Este proyecto representa mi primera incursión en la creación de resultados pulidos en todas las áreas en las que trabajo, un esfuerzo por mostrar mi capacidad multidisciplinaria. Aunque en mi día a día me dedico principalmente a la creación de prototipos, este portafolio es una ventana a lo que puedo lograr cuando me enfoco en la perfección.
                 </p>
             </div>
             <div className="bottomLight"/>

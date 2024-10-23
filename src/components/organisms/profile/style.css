@@ -2,7 +2,6 @@
     background-color: #272727;
     
     width: 100%;
-    height: 115vh;
     display: flex;
     overflow: visible; 
     background-size: contain;
@@ -51,12 +50,15 @@
     flex-direction: column;
     align-items: start;
     justify-content: center;
+    margin: 50px 0px 50px 15%;
 }
 .txtblc {
     color: white;
     display: flex;
     flex-direction: column;
     align-items: start; 
+    font-family: 'JuleeRegular';
+    font-weight: lighter;
 }
 
 .txtblc p {
@@ -83,8 +85,8 @@
     width: 25%;
     position: relative;
     left: 6vw;
-    height: 100vh;
-    transform: translateY(-14%);
+    height: 105vh;
+    transform: translateY(-15%);
     z-index: 17;
 }
 
